@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "agent-from-scratch"
+version = "0.1.0"
+description = ""
+authors = ["Aiden-Jeon <aiden.jongseob@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+langchain = "^0.3.9"
+langchain-openai = "^0.2.11"
+langchain-community = "^0.3.9"
+python-dotenv = "^1.0.1"
+litellm = "^1.53.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
