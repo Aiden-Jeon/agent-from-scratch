@@ -12,6 +12,7 @@ langchain-openai = "^0.2.11"
 langchain-community = "^0.3.9"
 python-dotenv = "^1.0.1"
 litellm = "^1.53.5"
+langgraph = "^0.2.56"
 
 
 [build-system]
